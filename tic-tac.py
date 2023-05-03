@@ -4,9 +4,9 @@ import time, random as ran
 root=Tk()
 root.geometry("692x690")
 root.configure(bg="black")
-img1=PhotoImage(file="D:/tic tac toe computer/X.png")
-img2=PhotoImage(file="D:/tic tac toe computer/0.png")
-img3=PhotoImage(file="D:/tic tac toe computer/blank.png")
+img1=PhotoImage(file="D:/tictactoe/X.png")
+img2=PhotoImage(file="D:/tictactoe/0.png")
+img3=PhotoImage(file="D:/tictactoe/blank.png")
 for i in range(3):
     root.rowconfigure(i,weight=1)
     root.columnconfigure(i,weight=1)
